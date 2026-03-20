@@ -1,12 +1,14 @@
 package timemanagement;
 import java.util.Scanner;
-public class Main {
 
-	public static void main(String[] args) {
+
+public class Main {
+		void runTracker() {
+	//public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		Tracker track = new Tracker();
-		do {
+		while(true) {
 		System.out.println("Choose your option: ");
 		System.out.println("1. Add subject and Goal Hours ");
 		System.out.println("2. Log Hours worked");
@@ -27,7 +29,7 @@ public class Main {
 		case 2:System.out.println("enter the subject you worked for");
 		String sub = sc.nextLine();
 			System.out.println("Enter no. of hours worked");
-			int w_hours = sc.nextInt();
+			int w_hours = sc.nextInt();sc.nextLine();
 		track.logHours(sub, w_hours);
 		break;
 		case 3: track.viewprogress();
@@ -42,7 +44,8 @@ public class Main {
 		break;
 		}
 			
-	}while(true);
 	}
 
 }
+}
+
