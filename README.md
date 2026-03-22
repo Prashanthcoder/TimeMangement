@@ -27,3 +27,33 @@ A simple Java-based Time Management program that helps users organize tasks, tra
 ---
 
 
+---
+
+## ⚙️ How It Works
+
+1. User runs the program  
+2. Menu options are displayed:
+   - Add Task  
+   - View Tasks  
+   - Complete Task  
+   - Exit  
+3. User interacts via console input  
+4. Tasks are stored and managed during runtime  
+
+---
+
+## ▶️ How to Run
+
+### Step 1: Compile
+```bash
+javac Main.java
+
+
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Exit
+
+Enter your choice: 1
+Enter task name: Study Java
+Task added successfully!
